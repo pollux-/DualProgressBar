@@ -2,8 +2,10 @@
 ![Sample](https://raw.github.com/pollux-/DualProgressBar/master/raw/anim.gif)
 
 ## Description
-Two ProgressBar spinning in Sync with each other.
+Two ProgressBar spinning in Sync with each other.More detail description you can find it here.
+
 (https://medium.com/@sreekumar_av/how-to-create-your-own-progressbar-in-android-511419293158#.svu3uakyp)
+
 ## Usage
 ```xml
  <com.custom.progress.DualProgressView
