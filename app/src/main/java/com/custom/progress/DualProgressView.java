@@ -134,7 +134,7 @@ public class DualProgressView extends View {
         mInnerPadding = a.getDimensionPixelSize(R.styleable.DualProgressView_dpv_inner_padding,
                 resources.getDimensionPixelSize(R.dimen.default_inner_padding));
 
-        mOuterCircleColor = a.getColor(R.styleable.DualProgressView_dpv_inner_color,
+        mOuterCircleColor = a.getColor(R.styleable.DualProgressView_dpv_outer_color,
                 ContextCompat.getColor(getContext(), R.color.colorPrimary));
         mInnerCircleColor = a.getColor(R.styleable.DualProgressView_dpv_inner_color,
                 ContextCompat.getColor(getContext(), R.color.colorAccent));

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -13,5 +14,10 @@
     <com.custom.progress.DualProgressView
         android:layout_width="32dp"
         android:layout_height="32dp"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        app:dpv_thickness="@dimen/default_thickness"
+        app:dpv_inner_padding="@dimen/default_inner_padding"
+        app:dpv_inner_color="@color/colorAccent"
+        app:dpv_outer_color="@color/colorPrimary" />
+
 </RelativeLayout>
