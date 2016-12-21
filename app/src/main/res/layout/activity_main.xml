@@ -11,8 +11,7 @@
     tools:context="com.custom.progress.MainActivity">
 
     <com.custom.progress.DualProgressView
-        android:layout_centerInParent="true"
         android:layout_width="32dp"
         android:layout_height="32dp"
-         />
+        android:layout_centerInParent="true" />
 </RelativeLayout>
