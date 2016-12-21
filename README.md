@@ -1,4 +1,4 @@
-# Material Dual ProgressBar
+# Material Dual ProgressView
 ![Sample](https://raw.github.com/pollux-/DualProgressBar/master/raw/anim.gif)
 
 ## Description
