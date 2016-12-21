@@ -3,6 +3,7 @@
 
 ## Description
 Two ProgressBar spinning in Sync with each other.
+(https://medium.com/@sreekumar_av/how-to-create-your-own-progressbar-in-android-511419293158#.svu3uakyp)
 ## Usage
 ```xml
  <com.custom.progress.DualProgressView
