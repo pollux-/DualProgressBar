@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_thickness">2dp</dimen>
+    <dimen name="default_inner_padding">8dp</dimen>
+    <integer name="default_anim_duration">3000</integer>
+    <integer name="default_anim_step">3</integer>
+    <integer name="default_start_angle">-90</integer>
+</resources>
