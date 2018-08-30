@@ -1,7 +1,7 @@
 # DualProgressView
 Custom view to show Progress
 
-![ProgressView Demo](https://raw.githubusercontent.com/pollux-/DualProgressBar/master/progress.gif)
+![ProgressView Demo](https://raw.githubusercontent.com/pollux-/DualProgressBar/tree/master/raw)
 
 #### How to use
 
