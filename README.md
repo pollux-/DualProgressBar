@@ -8,8 +8,7 @@ Custom view to show Progress
 ```xml
 <com.pollux.widget.DualProgressView
        android:layout_width="32dp"
-       android:layout_height="32dp"
-        />
+       android:layout_height="32dp"/>
 ```
 
 #### Want more ?
