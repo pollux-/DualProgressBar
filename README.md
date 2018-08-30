@@ -23,3 +23,4 @@ Custom view to show Progress
        app:dpv_thickness="2dp" />
 
 ```
+If you want to know in detail about this animation, read it here https://medium.com/@sreekumar_av/how-to-create-your-own-progressbar-in-android-511419293158
