@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dual ProgressBar custom attributes-->
+    <declare-styleable name="DualProgressView">
+        <attr name="dpv_anim_duration" format="integer"/>
+        <attr name="dpv_outer_color" format="color"/>
+        <attr name="dpv_inner_color" format="color"/>
+        <attr name="dpv_thickness" format="dimension"/>
+        <attr name="dpv_inner_padding" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <attr name="android:orientation"/>
+    </declare-styleable>
+
+</resources>
