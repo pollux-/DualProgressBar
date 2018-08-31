@@ -15,14 +15,12 @@ allprojects {
         }
     }
 }
-
 ```
 then in your module dependency 
 
 ```java
  implementation 'com.pollux:dualprogressview:0.0.1'
-```java
-
+```
 
 ```xml
 <com.pollux.widget.DualProgressView
