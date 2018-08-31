@@ -1,13 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-
-
+    compileSdkVersion 27
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
 
@@ -32,11 +30,36 @@ android {
 
 }
 
+ext {
+    bintrayRepo = 'Artifact'
+    bintrayName = 'dualprogress'
+
+    publishedGroupId = 'com.pollux'
+    libraryName = 'Dualprogessview'
+    artifact = 'dualprogressview'
+    libraryVersion = '0.0.1'
+
+    libraryDescription = 'A widget to show progress'
+
+    siteUrl = 'https://github.com/pollux-/DualProgressBar'
+    gitUrl = 'https://github.com/pollux-/DualProgressBar.git'
+
+    developerName = 'pollux-'
+    developerEmail = 'sreevijayan.ak@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
+
+apply from: 'installv1.gradle'
+apply from: 'bintrayv1.gradle'
