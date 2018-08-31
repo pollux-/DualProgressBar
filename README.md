@@ -10,9 +10,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven {
-            url "https://dl.bintray.com/sreekumar/Artifact"  -> this one
-        }
     }
 }
 ```
