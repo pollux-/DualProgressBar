@@ -1,5 +1,4 @@
-# DualProgressView [ ![Download](https://api.bintray.com/packages/sreekumar/Artifact/dualprogessview/images/download.svg) ](https://bintray.com/sreekumar/Artifact/dualprogessview/_latestVersion)
-Custom view to show Progress
+# DualProgressView
 
 [ ![Download](https://api.bintray.com/packages/sreekumar/Artifact/dualprogress/images/download.svg) ](https://bintray.com/sreekumar/Artifact/dualprogress/_latestVersion)
 #### How to use
