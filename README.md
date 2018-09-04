@@ -1,6 +1,9 @@
 # DualProgressView
 
 [ ![Download](https://api.bintray.com/packages/sreekumar/Artifact/dualprogress/images/download.svg) ](https://bintray.com/sreekumar/Artifact/dualprogress/_latestVersion)
+
+![ProgressView Demo](https://raw.githubusercontent.com/pollux-/DualProgressBar/master/raw/progress.gif)	
+
 #### How to use
 
 Add below to your root `build.gradle` file
