@@ -1,0 +1,37 @@
+apply plugin: 'maven-publish'
+
+def LIB_GROUP_ID = 'com.pollux'
+def LIB_ARTIFACT_ID = 'dualprogressview'
+def LIB_VERSION = '1.0.0'
+
+publishing {
+    repositories {
+        maven {
+            name = "GithubPackages"
+            url = uri("https://maven.pkg.github.com/pollux-/DualProgressBar")
+            credentials {
+                username = System.getenv('GIT_USER') ?: project.properties['GIT_USER']
+                password = System.getenv('GIT_TOKEN') ?: project.properties['GIT_TOKEN']
+            }
+        }
+    }
+    publications {
+        token(MavenPublication) {
+            groupId LIB_GROUP_ID
+            artifactId LIB_ARTIFACT_ID
+            version LIB_VERSION
+            artifact("$buildDir/outputs/aar/dualprogressbar-release.aar")
+
+            pom.withXml {
+                def dependenciesNode = asNode().appendNode('dependencies')
+                //Iterate over the compile dependencies (we don't want the test ones), adding a <dependency> node for each
+                configurations.api.allDependencies.each {
+                    def dependencyNode = dependenciesNode.appendNode('dependency')
+                    dependencyNode.appendNode('groupId', it.group)
+                    dependencyNode.appendNode('artifactId', it.name)
+                    dependencyNode.appendNode('version', it.version)
+                }
+            }
+        }
+    }
+}
