@@ -1,6 +1,6 @@
 # DualProgressView
 
-![ProgressView Demo](https://raw.githubusercontent.com/pollux-/DualProgressBar/master/raw/progress.gif)
+![ProgressView Demo](https://raw.githubusercontent.com/pollux-/DualProgressBar/feature/compose/raw/progress.gif)
 
 #### How to start ?
 
